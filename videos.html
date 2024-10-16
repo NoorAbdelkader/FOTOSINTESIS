@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Videos Explicativos</title>
+    <style>
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Espacio entre videos */
+            margin: 20px 0;
+        }
+        .video {
+            flex: 0 1 45%; /* Cada video ocupa el 45% del contenedor */
+            max-width: 560px; /* Ancho máximo de cada video */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Videos Explicativos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="fotosintesis.html">Fotosíntesis</a></li>
+                <li><a href="componentes.html">Componentes Clave</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Videos sobre Fotosíntesis</h2>
+        <div class="video-container">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mtGgo68VM54" title="Introducción a la Fotosíntesis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tdDg1uSKyns" title="Fotosíntesis: Proceso y Efectos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pqr4HVdI9a4" title="Ciclo de Calvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yiLJq0ma03I" title="Fotosíntesis en Plantas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
